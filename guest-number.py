@@ -2,7 +2,7 @@
 import random
 
 guessestaken=0
-number = random.randinit(1, 20)
+number = random.randint(1, 20)
 print("Hello! What is your name? ")
 myName = input()
 print ("Well," + myName +". I am thinking of a number between 1 and 20.")
@@ -21,8 +21,8 @@ while guessestaken<=4:
 		break
 if(guess==number):
 	print ("Good job, "+ myName +". You were right man!")
-	print ("Your guest is " + guess + "that matchs with our number" + number)
+	print ("Your guest is " + str(guess) + " that matchs with our number " + str(number))
 else:
 	print("Oops, it seems you go wrong man")
-	print("Our number is" + number)
+	print("Our number is " + str(number))
 
