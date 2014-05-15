@@ -1,5 +1,5 @@
 # This's comfortable with Python > 3.x version
-# import random
+import random
 import time
 
 def displayIntro():
@@ -24,8 +24,7 @@ def checkCave(choosenCave):
 	print()
 	time.sleep(2)
 
-	#friendlyCave=random.randinit(1,2)
-	friendlyCave=1	
+	friendlyCave=random.randint(1,2)	
 	if choosenCave==str(friendlyCave):
 		print("Give you his treasure.")
 	else:
