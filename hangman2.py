@@ -62,5 +62,9 @@ def playAgain():
 def randWord(wordList):
 	i = randint(0, len(wordList-1))
 	return wordList[i]
-def displayBoard(HANGMANPICS,wrongLetters,correctLetters,missedLetters)
+def displayBoard(HANGMANPICS,wrongLetters,correctLetters,missedLetters):
+
+# Main function
+
+
 	
